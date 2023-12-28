@@ -10,11 +10,12 @@ function Navbar() {
   const handlelogout = async () => {
     try {
       const token = localStorage.getItem('token');
+      console.log(token)
 
-      if (!token) {
+      // if (!token) {
        
-        return;
-      }
+      //   return;
+      // }
 
       const headers = {
         Authorization: `Bearer ${token}`,
@@ -48,7 +49,10 @@ function Navbar() {
           <Link to="/register">Register</Link>
         </li>
         <li>
-          {localStorage.getItem("token")?<Link onClick={handlelogout}  to="#">Logout</Link>:<Link to="/login">Login</Link>}
+        <Link to="/login">Login</Link>
+          <li>
+        
+        </li>
         </li>
        
       </ul>

@@ -12,12 +12,12 @@ function Register() {
     email: "",
     password: "",
     role: "frontend",
-    age:undefined
+    phone_number:undefined
   });
   const navigate = useNavigate();
 
   const [alrt, setAlrt] = useState("");
-  const [msg, setMsg] = useState("");
+ 
   const [blankFieldMsg, setBlankFieldMsg] = useState(""); 
   const [invalidEmailMsg, setInvalidEmailMsg] = useState(""); 
 
@@ -117,15 +117,15 @@ function Register() {
           />
           
            <br />
-           <label htmlFor="password">age:</label>
+           <label htmlFor="password">phone_number:</label>
            <br />
           <input
             type="text"
             id="email"
             name="age"
-            value={formData.age}
+            value={formData.phone_number}
             onChange={handleChange}
-            placeholder="age"
+            placeholder="phone_number"
           />
           <br />
           <select onChange={handleChange} name="role" id="">

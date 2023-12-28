@@ -47,6 +47,7 @@ exports.loginUser = async (req, res) => {
 exports.logoutuser=(req,res)=>{
   const token = req.headers.authorization?.split(" ")[1]
 try {
+if(token)
 blacklist.push(token)
    res.status(200).json({msg:"the user has been logged out"})
 } catch (error) {
