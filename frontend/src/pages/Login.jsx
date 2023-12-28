@@ -2,15 +2,14 @@ import React, { useState } from "react";
 import "./Login.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import { url } from "../backend";
+
 import { Url } from "../url";
 
 function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
-  const [messageColor] = useState(""); 
-  const [login,setLogin]=useState("Login")
+
   const Navigate = useNavigate();
 
   const obj = {
@@ -50,7 +49,9 @@ function Login() {
             setMessage("Login failed. Please check your email and password.");
           });
       }
-    } catch (error) {}
+    } catch (error) {
+      console.log(error)
+    }
   };
 
   const handleclick = () => {
