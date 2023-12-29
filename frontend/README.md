@@ -56,6 +56,7 @@ https://frontend-omp12345.vercel.app this is the vercel deployment link
 
 ## for authentixcation 
  i have used  jsonweb token (RS256) (jwt)
+ i have exppieIn properties for privacy with 10 minute
 
  i have used jsonwebtoken 
  ## for hashing 
