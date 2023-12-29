@@ -69,9 +69,10 @@ https://frontend-omp12345.vercel.app this is the vercel deployment link
 ## web:https://frontend-omp12345.vercel.app
  >>>>>>>>final outcome >>>>
 <img src="https://github.com/omp12345/the-brand-wick/assets/112754710/ed51d345-58fe-49a8-af22-9299b88c533a">
+<br/>
 
 <img src="https://github.com/omp12345/the-brand-wick/assets/112754710/c1ca6e71-f9c3-4bcc-b48e-b460f4266690">
-
+<br/>
 <img src="https://github.com/omp12345/the-brand-wick/assets/112754710/8b831f72-519b-4e10-aa12-281020a02bcb">
 
 
