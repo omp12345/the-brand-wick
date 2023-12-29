@@ -34,19 +34,28 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 This section has moved here: [https://frontend-omp12345.vercel.app]
 
 ##githubRepo:https://github.com/omp12345/the-brand-wick
-##Routes:
-userRoutes
+ <>>>>>>>> i have used package for frontend side>>>
+"axios": "^1.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.17.0",
+    "react-scripts": "5.0.1",
+    "react-speech": "^1.0.2",
+       "web-vitals": "^2.1.4"
+https://frontend-omp12345.vercel.app this is the vercel deployment link
+   
+
 
 >>>>>backend>>>>>>>
-##userRoutes has three end poiny 
+##userRoutes has three end point
 /api/user/register
 /api/user/login
 /api/user/logout
 
 
-(RS256)
+
 ## for authentixcation 
- i have used  jsonweb token (jwt)
+ i have used  jsonweb token (RS256) (jwt)
 
  i have used jsonwebtoken 
  ## for hashing 
